@@ -1,0 +1,1 @@
+This repo contains v1 of the Rehoboth Research Whitepaper titled 'Bitcoin mining & the solar opportunity'
