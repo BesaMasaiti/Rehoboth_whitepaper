@@ -1,7 +1,6 @@
-# Bitcoin Mining & The Solar Opportunity
+# Rehoboth Research LLC
+## Bitcoin Mining & The Solar Opportunity
 **Authored by Besa Masaiti: besa@rehobothresearch.org**
-
----
 
 
 ## Structure
@@ -13,6 +12,8 @@
 - Risks & Feasibility
 - Bitcoin Price Volatility and IRR Sensitivity  
 - Roadmap
+- Contact
+
 
 ---
 
@@ -20,7 +21,12 @@
 
 Seventeen years after Satoshi Nakamoto published the Bitcoin whitepaper, Bitcoin has evolved from a peer-to-peer electronic cash system into a globally distributed settlement network secured by proof-of-work computation. Public discourse around Bitcoin focuses on price volatility, speculation and often comparisons to gold and the S&P500, which have market caps of: **$1.8T**, **$31T** and **$58T** respectively (as of 2025). #Add market cap numbers of all 3. However, there is a more pertinent factor that needs addressing, and that is energy. 
 
-Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh** of electricity annually-more than nordic countries like Norway(**124 tWh**) as measured by the World Population Review’s Electricity Consumption per country in the 2023 data set. The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tones(conservative estimates) -98M metric tones(fossil fuel-intensive estimates) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses. 
+Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh** of electricity annually-more than nordic countries like Norway(**124 tWh**) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
+
+![Electricity Consumption per country 2023](electricity_consumed_per_country_2023.png)
+
+
+The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tones(conservative estimates) -98M metric tones(fossil fuel-intensive estimates) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses. 
 
 This whitepaper argues that the future competitiveness of Bitcoin mining depends on a structural shift toward low-cost, off-grid renewable energy sources in high-irradiance regions. Specifically, it evaluates solar energy deployment in Botswana as a strategic opportunity for Bitcoin miners seeking to reduce operating costs, mitigate regulatory risk, and improve long-term economic resilience.
 
@@ -77,6 +83,12 @@ Energy is cheapest in regions like Iran and Kazakhstan which are coal-based and 
 
 A Cambridge Digital mining report also stated that miners’ electricity mix is predominantly sustainable **(52.4%)**, with renewables accounting for **42.6%**. Hydropower constitutes the largest sustainable source **(23.4%)**, followed by wind **(15.4%)**, nuclear **(9.8%)**, solar **(3.2%)**, and other renewables **(0.5%)**. Fossil fuels make up **47.6%**, primarily natural gas **(38.2%)**, which is also the single largest energy source, followed by coal **(8.9%)** and oil **(0.5%)**. 
 
+![Renewable vs Non-Renewable Energy Share](renew_nonrenew_share.png)
+
+![Renewable Energy Shares](renew_share.png)
+
+![Non-Renewable Energy Shares](nonrenew_share.png)
+
 Grid-connected mining operations face several structural risks:
 - Public and Environmental Scrutiny: High energy use often leads to media attention and negative public perception, which can influence regulatory action and hinder business expansion plans. This can be seen with President Trump's recent announcement on Truth Social to ensure data centers ‘pay their fair share’ of electricity costs due to grid-connected participation.
 - Regulatory exposure: In the US, the U.S Energy Information Administration recently moved to initiate a provisional survey of electricity consumption for U.S cryptocurrency mining companies, which was paused after a series of those companies sued it. 
@@ -89,6 +101,8 @@ Solar energy, particularly in regions with exceptional irradiance such as Botswa
 
 
 ## Botswana’s Solar as a strategic solution
+
+![Botswana Photovoltaic potential](bw_photovoltaic_potential.png)
 
 Botswana is a landlocked, Southern African country with approximately 2.5M people, lying on **581,730 $km^2$** of land. It boasts about **3200 hours** of annual sunlight and a direct normal irradiance(**DNI**) of about **1900+kWh/$m^2$/year**. DNI measures the amount of solar radiation hitting a surface per area, that is perpendicular to the sun’s rays. An alternative measure is **GHI**, which measures the total solar radiation hitting a horizontal surface- Botswana’s is around **21MJ/$m^2$** with peaks of up to **45MJ/$m^2$** annually. 
 
@@ -138,6 +152,8 @@ Our base-case model estimates a **$0.08/kWh LCOE**. To account for capital cost 
 *Figure: Simulated LCOE probability distribution for a 1.5 MW off-grid solar microgrid in Botswana.*[^fig3]
 
 __The model assumes a flexible mining load that dynamically scales with solar generation, minimizing the need for costly battery storage. This design prioritizes capital efficiency over continuous uptime and is appropriate for pilot-scale deployments.__
+
+![kWh Differences](kWh_cost.png)
 
 ### Noteable benchmarks 
 It is also worth mentioning, benchmarkable case studies of African countries where renewable energy  pilots have been constructed to power bitcoin miners. These include:
