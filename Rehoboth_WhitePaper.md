@@ -1,5 +1,5 @@
 # Bitcoin Mining & The Solar Opportunity
-**Authored by Besa Masaiti**
+**Authored by Besa Masaiti: besa@rehobothresearch.org**
 
 ---
 
@@ -40,7 +40,11 @@ $$
 Reward_t = \frac{50}{2^{\left\lfloor \frac{\text{Current Block}}{210000} \right\rfloor}}
 $$
 
-Bitcoin’s issuance follows a fixed, anti-inflationary tokenomics model with a maximum supply of **21M bitcoins**. Approximately **19M bitcoins** are in circulating supply and it is estimated that bitcoin mining will cease by the year 2140 with rewards for miners decreasing over time.This is because Bitcoin supply is governed by halving economics. This means, the reward for bitcoin mining decreases by half every **210K blocks**- approximately every 4 years. As a result, miners depend on higher ASIC efficiencies plus reduced electricity costs to keep their profit margins, making energy costs a central determinant of profitability. 
+Bitcoin’s issuance follows a fixed, anti-inflationary tokenomics model with a maximum supply of **21M bitcoins**. Approximately **19M bitcoins** are in circulating supply and it is estimated that bitcoin mining will cease by the year 2140 with rewards for miners decreasing over time.
+
+![$BTC supply curve since inception](btc_supply_circulation.png)
+
+This is because Bitcoin supply is governed by halving economics. This means, the reward for bitcoin mining decreases by half every **210K blocks**- approximately every 4 years. As a result, miners depend on higher ASIC efficiencies plus reduced electricity costs to keep their profit margins, making energy costs a central determinant of profitability. 
 
 The hardware used to mine bitcoin can range from: application specific integrated circuits(ASICs,specialized hardware optimized for SHA-256 hashing) to CPUs and GPUs. ASICs are the most widely used due to their higher efficiency and higher hash rate output. Hash rate in this context, refers to the rate at which an ASIC or bitcoin mining tool can solve the aforementioned cryptography problems-whose difficulty increases with time.
 
@@ -65,6 +69,9 @@ Mining bitcoin carries a range of operational expenses. These include:
 - Electricity costs which make up **60-80%** of OPEX depending on the miner.
 
 Electricity costs measured in $/kWh, range significantly by geo-location.Before 2022, most bitcoin mining operations were carried out in China(60% of the hash rate) due to cheap coal-based electricity backed by high government subsidies as well as a Hydro-electric power mix. However, following regulatory crackdowns on energy-intensive activities and concerns over grid stability and emissions, bitcoin mining was outlawed. Today, miners operate in different countries like: Iran, Kazakhstan, some parts of China and Russia, some U.S.A states, parts of Africa and Latin America.
+
+![Global Hashrate Distribution](btc_hashrate_2025_country.jpg)
+*Figure: Global Hashrate distribution sourced from hashrate index.*[^fig3]
 
 Energy is cheapest in regions like Iran and Kazakhstan which are coal-based and in some states like Texas and Kansas which offer incentives to bitcoin miners who relocate to them. Western countries like Ireland offer higher tariffs(electricity costs) for miners due to a higher residential usage/ demand for electricity. 
 
@@ -126,6 +133,9 @@ $$ LCOE = \frac{\sum_{t=1}^{n} (CAPEX_t + OPEX_t )}{\sum_{t=1}^{n} Energy\ Outpu
 
 
 Our base-case model estimates a **$0.08/kWh LCOE**. To account for capital cost uncertainty, a Monte Carlo simulation was conducted with CAPEX treated as a stochastic variable. Simulated outcomes produce a **10th–90th percentile** LCOE range of approximately **$0.071–$0.091/kWh**, with a mean near **$0.08**.
+
+![LCOE Probability Distribution](LCOE_prob_distr.png)
+*Figure: Simulated LCOE probability distribution for a 1.5 MW off-grid solar microgrid in Botswana.*[^fig3]
 
 __The model assumes a flexible mining load that dynamically scales with solar generation, minimizing the need for costly battery storage. This design prioritizes capital efficiency over continuous uptime and is appropriate for pilot-scale deployments.__
 
