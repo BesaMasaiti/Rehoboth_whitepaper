@@ -106,7 +106,7 @@ Source: [Cambridge Digital Mining Industry Report](https://www.jbs.cam.ac.uk/wp-
 Grid-connected mining operations face several structural risks:
 - Public and Environmental Scrutiny: High energy use often leads to media attention and negative public perception, which can influence regulatory action and hinder business expansion plans. This can be seen with President Trump's recent announcement on Truth Social to ensure data centers ‘pay their fair share’ of electricity costs due to grid-connected participation.
 - Regulatory exposure: In the US, the U.S Energy Information Administration recently moved to initiate a provisional survey of electricity consumption for U.S cryptocurrency mining companies, which was paused after a series of those companies sued it. 
-- Forced shutoffs during high-demand periods: Grid-connected operations often have to shut down operations during high demand periods, to allow for energy use by more critical infrastructure and stabilize prices which has an effect on expected profitability. See
+- Forced shutoffs during high-demand periods: Grid-connected operations often have to shut down operations during high demand periods, to allow for energy use by more critical infrastructure and stabilize prices which has an effect on expected profitability. 
 
 *Off-grid mining, by contrast, offers energy sovereignty. Miners that generate their own electricity avoid grid congestion, price spikes, and curtailment mandates, while gaining greater control over operating costs and regulatory exposure.*
 
@@ -176,8 +176,8 @@ Source: [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/), [pvkn
 
 ### Noteable benchmarks 
 It is also worth mentioning, benchmarkable case studies of African countries where renewable energy  pilots have been constructed to power bitcoin miners. These include:
-- Kenya: In March 2024, Marathon Digital announced a signed deal with Kenya, wherein MARA will be capitalizing on Kenya’s underutilized Geothermal energy resources to power their operations. Cite this
-- Ethiopia: UAE-based Phoenix Group, signed a 80MW power purchase agreement with EEP(Ethiopian Electric Power) leveraging primarily hydropower energy, announced January 2025. Cite this Though in Q3 2025, EEP announced plans to phase out $BTC miners due to the strain on the electric grid that they pose. 
+- Kenya: In March 2024, Marathon Digital announced a signed deal with Kenya, wherein MARA will be capitalizing on Kenya’s underutilized Geothermal energy resources to power their operations. 
+- Ethiopia: UAE-based Phoenix Group, signed a 80MW power purchase agreement with EEP(Ethiopian Electric Power) leveraging primarily hydropower energy, announced January 2025. Though in Q3 2025, EEP announced plans to phase out $BTC miners due to the strain on the electric grid that they pose. 
 
 Recent academic literature on cryptocurrency mining and carbon emissions argues that mining should be incentivized in regions ranked higher in the Environment Performance Index, which takes into account: energy price, energy generation, sources, temperature, legal constraints, human capital, R &D. However, the literature primarily focuses on markets with mature energy infrastructure, overlooking high-irradiance regions where renewable energy generation potential is substantial but underdeveloped due to limited capital or generation capacity.
 
@@ -261,7 +261,8 @@ Risks|Mitigation|
 
 $BTC being a speculative asset means profitability for miners also depends on the volatility of the asset’s price. 
 ### Formula
-$$Profit = (BTCreward * BTCprice) -(Energy cost + Opex)
+$$
+Profit_t = (BTCreward_t × BTCprice_t) − (Energycost_t + OPEX_t)
 $$
 
 We estimated that profitability of mining bitcoin is sensitive to price swings of the cryptocurrency by XX- a key metric that must be taken into account when modelling profitability margins for miners.
@@ -288,12 +289,13 @@ We estimated that profitability of mining bitcoin is sensitive to price swings o
 ## Sources Cited
 
 ## Contact Rehoboth Research
-Rehoboth Research LLC is a Pennsylvani- basedspecialized research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region.
+**Rehoboth Research LLC is a Pennsylvani- basedspecialized research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region.**
 
-Get in Touch
+**Get in Touch**
+
 For inquiries regarding our Solar Feasibility MVP, research & consulting services, or to discuss the data models used in this paper, please reach out via the following channels:
 
-Founder & Financial Research Analyst: Besa Masaiti
+**Founder & Financial Research Analyst: ***Besa Masaiti***
 
 Email: **besa@rehobothresearch.org**
 
