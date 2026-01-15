@@ -14,9 +14,8 @@
 - Risks & Feasibility
 - Bitcoin Price Volatility and IRR Sensitivity  
 - Roadmap
-- Sources Cited
 - Contact Rehoboth Research
-
+- Sources Cited
 
 ---
 
@@ -24,7 +23,7 @@
 
 Seventeen years after Satoshi Nakamoto published the Bitcoin whitepaper, Bitcoin has evolved from a peer-to-peer electronic cash system into a globally distributed settlement network secured by proof-of-work computation. Public discourse around Bitcoin focuses on price volatility, speculation and often comparisons to gold and the S&P500, which have market caps of: **$1.8T**, **$31T** and **$58T** respectively (as of 2025). However, there is a more pertinent factor that needs addressing, and that is energy. 
 
-Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh**(Cambridge Bitcoin Electricity Consumption Index) of electricity annually-more than nordic countries like Norway(**124 tWh**)(World Population Review, 2026) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
+Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh**(Cambridge Bitcoin Electricity Consumption Index) of electricity annually(2025 range was 120-200 tWh)-more than nordic countries like Norway(**124 tWh**)(World Population Review, 2026) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
 
 ![Electricity Consumption per country 2023](electricity_consumed_per_country_2023.png)
 *Electricity Consumption per Country, 2023.*
@@ -57,7 +56,7 @@ Bitcoin’s issuance follows a fixed, anti-inflationary tokenomics model with a 
 *All-time total $BTC circulating supply.*
 Source: [Blockchain.com](https://www.blockchain.com/explorer/charts/total-bitcoins). 
 
-This is because Bitcoin supply is governed by halving economics. This means, the reward for bitcoin mining decreases by half every **210K blocks**- approximately every 4 years. As a result, miners depend on higher ASIC efficiencies plus reduced electricity costs to keep their profit margins, making energy costs a central determinant of profitability. 
+This is because Bitcoin supply is governed by halving economics. This means, the reward for bitcoin mining decreases by half every **210K blocks**- approximately every 4 years (Investopedia, 2025). As a result, miners depend on higher ASIC efficiencies plus reduced electricity costs to keep their profit margins, making energy costs a central determinant of profitability. 
 
 The hardware used to mine bitcoin can range from: application specific integrated circuits(ASICs,specialized hardware optimized for SHA-256 hashing) to CPUs and GPUs. ASICs are the most widely used due to their higher efficiency and higher hash rate output. Hash rate in this context, refers to the rate at which an ASIC or bitcoin mining tool can solve the aforementioned cryptography problems-whose difficulty increases with time.
 
@@ -66,9 +65,9 @@ $$
 Difficulty_t = Difficulty_{t-1} \times \frac{\text{Time for 2016 Blocks}}{2\ \text{Weeks}}
 $$
 
-Hash rate is a key performance indicator in determining profitability for Bitcoin miners and is measured in H/s(Hashes per second). Typical ASIC efficiency is also measured in Joules per Terahash(J/TH).
+Hash rate is a key performance indicator in determining profitability for Bitcoin miners and is measured in H/s(Hashes per second). Typical ASIC efficiency is also measured in Joules per Terahash(J/TH) (Tlhalerwa & Mulalu, 2019).
 
-While ASIC efficiency continues to improve, mining hardware requires significant energy input and contributes to global e-waste as older machines become obsolete. Notably, companies like Mara Holdings have done much to ensure any excess energy from bitcoin mining can be rerouted to heat homes, as seen with their pilot project-heating around **11K** homes in Finland. 
+While ASIC efficiency continues to improve, mining hardware requires significant energy input and contributes to global e-waste as older machines become obsolete(Tlhalerwa & Mulalu, 2019). Notably, companies like Mara Holdings have done much to ensure any excess energy from bitcoin mining can be rerouted to heat homes, as seen with their pilot project-heating around **11K** homes in Finland. 
 
 Miners face increasing regulatory pressure related to sustainability, grid impact & congestion and emissions. As block rewards decline and competition for hash rate intensifies, the industry is shifting toward low-cost, stable and scalable renewable energy sources as a strategic necessity alongside an eventual reliance on transaction fees. 
 
@@ -268,6 +267,8 @@ $$
 We estimated that profitability of mining bitcoin is sensitive to price swings of the cryptocurrency by XX- a key metric that must be taken into account when modelling profitability margins for miners.
 
 ## Roadmap & Timelines
+The following roadmap outlines **Rehoboth Research's** phased approach to developing and scaling solar-powered compute infrastructure in Botswana. Progression between phases is conditional on achieving predefined technical, economic, and operational benchmarks.
+
 
 **Phase 0 Pre-pilot (3–6m)**  
 `[■■■■■■]` Launch Solar feasibility MVP
@@ -286,22 +287,122 @@ We estimated that profitability of mining bitcoin is sensitive to price swings o
 - Phase 2: Cost per MW subsidized, Revenue stability, Load efficiency  
 - Phase 3: IRR, Payback period, Portfolio diversification  
 
-## Sources Cited
+## Contact 
+Rehoboth Research LLC is a Pennsylvania-based independent research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region
 
-## Contact Rehoboth Research
-**Rehoboth Research LLC is a Pennsylvani- basedspecialized research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region.**
+**Founder & Whitepaper Author:**  
+Besa Masaiti 
 
-**Get in Touch**
+Email: besa@rehobothresearch.org
 
-For inquiries regarding our Solar Feasibility MVP, research & consulting services, or to discuss the data models used in this paper, please reach out via the following channels:
-
-**Founder & Financial Research Analyst: ***Besa Masaiti***
-
-Email: **besa@rehobothresearch.org**
-
-X (Twitter): https://x.com/BesaMasaiti
+X (Twitter): https://x.com/BesaMasaiti 
 
 LinkedIn: https://www.linkedin.com/in/besa-masaiti/
 
+For research collaboration, infrastructure partnerships, or investment-related inquiries:
+
+📧 Email: info@rehobothresearch.com   
+🔗 LinkedIn: linkedin.com/company/rehoboth-research
+
 **Legal Disclaimer**:
 *This white paper is for informational and research purposes only and does not constitute financial, investment, or legal advice. The calculations, including Levelized Cost of Energy (LCOE) and Internal Rate of Return (IRR) estimates, are based on current market data and stochastic modeling which are subject to change. Cryptocurrency mining involves significant risks, including asset volatility and regulatory shifts. Rehoboth Research LLC shall not be held liable for any financial losses or decisions made based on the contents of this document.*
+
+## Sources Cited
+### Bitcoin Network, Mining & Energy Consumption 
+
+Investopedia. (2025). *Understanding Bitcoin Halving: Impact on Price and Investment Strategies*. https://www.investopedia.com/bitcoin-halving-4843769#:~:text=Key%20Takeaways,guard%20against%20fiat%20currency%20inflation
+
+
+Cambridge Centre for Alternative Finance (CCAF). Cambridge Bitcoin Electricity Consumption Index (CBECI).
+https://ccaf.io/cbnsi/cbeci
+
+Cambridge Centre for Alternative Finance. Cambridge Digital Mining Industry Report.
+https://www.jbs.cam.ac.uk/faculty-research/centres/alternative-finance/publications/cambridge-digital-mining-industry-report/
+
+https://www.jbs.cam.ac.uk/wp-content/uploads/2025/04/2025-04-cambridge-digital-mining-industry-report.pdf
+
+Swissinfo.ch. Bitcoin causes up to 98 million tonnes of CO₂ per year.
+https://www.swissinfo.ch/eng/various/bitcoin-causes-98-million-tonnes-of-co2-per-year/89439335
+
+Blockchain.com. Total Bitcoins in Circulation.
+https://www.blockchain.com/explorer/charts/total-bitcoins
+
+Bitbo. Bitcoin Mining by Country.
+https://bitbo.io/tools/mining-by-country/
+
+Hashrate Index. Top 10 Bitcoin Mining Countries of 2025.
+https://hashrateindex.com/blog/top-10-bitcoin-mining-countries-of-2025/
+
+### Electricity Consumption & Global Energy Context
+
+World Population Review. Electricity Consumption by Country (2023).
+https://worldpopulationreview.com/country-rankings/electricity-consumption-by-country
+
+Earthjustice. Cryptocurrency miners and electricity reporting requirements.
+https://earthjustice.org/experts/mandy-deroche/cryptocurrency-miners-need-to-report-their-energy-use
+
+Yahoo Finance. Bitcoin mining and grid stabilization.
+https://finance.yahoo.com/news/bitcoin-mining-actually-stabilizes-grids-100216656.html
+
+### Solar Energy & Botswana-Specific Data
+
+Government of Botswana. Renewable Energy Sources Overview.
+https://www.gov.bw/natural-resources/renewable-energy-sources
+
+Solargis. Solar Resource Maps and GIS Data – Botswana.
+https://solargis.com/resources/free-maps-and-gis-data?locality=botswana
+
+PV KnowHow. Botswana Solar Market Overview.
+https://www.pvknowhow.com/solar-report/botswana/
+
+SolarReviews. Monocrystalline vs Polycrystalline Solar Panels.
+https://www.solarreviews.com/blog/pros-and-cons-of-monocrystalline-vs-polycrystalline-solar-panels
+
+World Bank / Our World in Data. Solar PV Prices.
+https://ourworldindata.org/grapher/solar-pv-prices
+
+### Academic Literature
+
+Bekker, B. et al. Renewable energy potential and policy pathways in Botswana. Renewable and Sustainable Energy Reviews.
+https://www.sciencedirect.com/science/article/abs/pii/S136403211930231X
+
+[Author(s)]. Energy–compute integration and sustainability implications of digital infrastructure. Energy Strategy Reviews.
+https://www.sciencedirect.com/science/article/pii/S2666188825003570
+
+### Mining Case Studies & Industry Developments
+
+Nasdaq. Kenya partners with Marathon Digital to monetize underused energy.
+https://www.nasdaq.com/articles/kenya-partners-with-marathon-to-monetize-underused-energy-by-mining
+
+Phoenix Group. 80MW Ethiopian Power Purchase Agreement announcement.
+https://phoenixgroupuae.com/news/phoenix-group-accelerates-global-expansion-with-80mw-ethiopian-ppa-significantly-boosting-bitcoin-mining-capacity
+
+CoinGeek. Ethiopia phases out Bitcoin miners amid grid pressure.
+https://coingeek.com/ethiopia-boots-out-btc-miners-despite-200-million-dollars-revenue/
+
+Aterio. How former Bitcoin miners are powering the AI boom.
+https://www.aterio.io/blog/how-former-bitcoin-miners-are-powering-the-ai-boom
+
+### Financial, Land & Cost Inputs
+
+Seeff Botswana. Commercial Vacant Land Listings.
+https://www.seeff.co.bw/results/vacant-land/
+
+Sinovoltaics. Solar installation labor costs.
+https://sinovoltaics.com/learning-center/consumers/labor-costs-installing-solar-panels/
+
+First National Bank Botswana. Business and insurance services.
+https://www.fnbbotswana.co.bw/for-my-business/value-adds/
+
+PwC. Botswana Corporate Tax Summary.
+https://taxsummaries.pwc.com/botswana/corporate/taxes-on-corporate-income
+
+### Commentary & Public Discourse
+
+Daugherty, E. (X / Twitter). Commentary on energy use and digital infrastructure.
+https://x.com/EricLDaugh/status/2010860046289174544
+
+### Author Analysis
+
+Rehoboth Research LLC. Original financial modeling, Monte Carlo simulations, feasibility analysis, and data visualizations.
+Author calculations and visualizations unless otherwise stated.
