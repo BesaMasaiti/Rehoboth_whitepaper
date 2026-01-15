@@ -15,7 +15,7 @@
 - Bitcoin Price Volatility and IRR Sensitivity  
 - Roadmap
 - Sources Cited
-- Contact
+- Contact Rehoboth Research
 
 
 ---
@@ -27,6 +27,8 @@ Seventeen years after Satoshi Nakamoto published the Bitcoin whitepaper, Bitcoin
 Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh** of electricity annually-more than nordic countries like Norway(**124 tWh**) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
 
 ![Electricity Consumption per country 2023](electricity_consumed_per_country_2023.png)
+*Electricity Consumption per Country, 2023.*
+Source: [World Population Review (2023)](https://worldpopulationreview.com/country-rankings/electricity-consumption-by-country). *Vizualization modified by author*
 
 
 The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tones(conservative estimates) -98M metric tones(fossil fuel-intensive estimates) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses. 
@@ -52,6 +54,8 @@ $$
 Bitcoin’s issuance follows a fixed, anti-inflationary tokenomics model with a maximum supply of **21M bitcoins**. Approximately **19M bitcoins** are in circulating supply and it is estimated that bitcoin mining will cease by the year 2140 with rewards for miners decreasing over time.
 
 ![$BTC supply curve since inception](btc_supply_circulation.png)
+*All-time total $BTC circulating supply.*
+Source: [Blockchain.com](https://www.blockchain.com/explorer/charts/total-bitcoins). 
 
 This is because Bitcoin supply is governed by halving economics. This means, the reward for bitcoin mining decreases by half every **210K blocks**- approximately every 4 years. As a result, miners depend on higher ASIC efficiencies plus reduced electricity costs to keep their profit margins, making energy costs a central determinant of profitability. 
 
@@ -80,17 +84,24 @@ Mining bitcoin carries a range of operational expenses. These include:
 Electricity costs measured in $/kWh, range significantly by geo-location.Before 2022, most bitcoin mining operations were carried out in China(60% of the hash rate) due to cheap coal-based electricity backed by high government subsidies as well as a Hydro-electric power mix. However, following regulatory crackdowns on energy-intensive activities and concerns over grid stability and emissions, bitcoin mining was outlawed. Today, miners operate in different countries like: Iran, Kazakhstan, some parts of China and Russia, some U.S.A states, parts of Africa and Latin America.
 
 ![Global Hashrate Distribution](btc_hashrate_2025_country.jpg)
-*Figure: Global Hashrate distribution sourced from hashrate index.*[^fig3]
+*Global Hashrate Distribution(2025).*
+Source: [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-countries-of-2025/). 
 
 Energy is cheapest in regions like Iran and Kazakhstan which are coal-based and in some states like Texas and Kansas which offer incentives to bitcoin miners who relocate to them. Western countries like Ireland offer higher tariffs(electricity costs) for miners due to a higher residential usage/ demand for electricity. 
 
 A Cambridge Digital mining report also stated that miners’ electricity mix is predominantly sustainable **(52.4%)**, with renewables accounting for **42.6%**. Hydropower constitutes the largest sustainable source **(23.4%)**, followed by wind **(15.4%)**, nuclear **(9.8%)**, solar **(3.2%)**, and other renewables **(0.5%)**. Fossil fuels make up **47.6%**, primarily natural gas **(38.2%)**, which is also the single largest energy source, followed by coal **(8.9%)** and oil **(0.5%)**. 
 
 ![Renewable vs Non-Renewable Energy Share](renew_nonrenew_share.png)
+*Renewable vs Non-Renewable Energy Share(April 2025).*
+Source: [Cambridge Digital Mining Industry Report](https://www.jbs.cam.ac.uk/wp-content/uploads/2025/04/2025-04-cambridge-digital-mining-industry-report.pdf). *Vizualization modified by author*
 
 ![Renewable Energy Shares](renew_share.png)
+*Renewable Energy Share(April 2025).*
+Source: [Cambridge Digital Mining Industry Report](https://www.jbs.cam.ac.uk/wp-content/uploads/2025/04/2025-04-cambridge-digital-mining-industry-report.pdf). *Vizualization modified by author*
 
 ![Non-Renewable Energy Shares](nonrenew_share.png)
+*Non-Renewable Energy Share(April 2025).*
+Source: [Cambridge Digital Mining Industry Report](https://www.jbs.cam.ac.uk/wp-content/uploads/2025/04/2025-04-cambridge-digital-mining-industry-report.pdf). *Vizualization modified by author*
 
 Grid-connected mining operations face several structural risks:
 - Public and Environmental Scrutiny: High energy use often leads to media attention and negative public perception, which can influence regulatory action and hinder business expansion plans. This can be seen with President Trump's recent announcement on Truth Social to ensure data centers ‘pay their fair share’ of electricity costs due to grid-connected participation.
@@ -106,6 +117,8 @@ Solar energy, particularly in regions with exceptional irradiance such as Botswa
 ## Botswana’s Solar as a strategic solution
 
 ![Botswana Photovoltaic potential](bw_photovoltaic_potential.png)
+*Botswana Photovoltaic potential.*
+Source: [Solar resource map © 2021 Solargis](https://solargis.com/resources/free-maps-and-gis-data?locality=botswana). 
 
 Botswana is a landlocked, Southern African country with approximately 2.5M people, lying on **581,730 $km^2$** of land. It boasts about **3200 hours** of annual sunlight and a direct normal irradiance(**DNI**) of about **1900+kWh/$m^2$/year**. DNI measures the amount of solar radiation hitting a surface per area, that is perpendicular to the sun’s rays. An alternative measure is **GHI**, which measures the total solar radiation hitting a horizontal surface- Botswana’s is around **21MJ/$m^2$** with peaks of up to **45MJ/$m^2$** annually. 
 
@@ -152,11 +165,14 @@ $$ LCOE = \frac{\sum_{t=1}^{n} (CAPEX_t + OPEX_t )}{\sum_{t=1}^{n} Energy\ Outpu
 Our base-case model estimates a **$0.08/kWh LCOE**. To account for capital cost uncertainty, a Monte Carlo simulation was conducted with CAPEX treated as a stochastic variable. Simulated outcomes produce a **10th–90th percentile** LCOE range of approximately **$0.071–$0.091/kWh**, with a mean near **$0.08**.
 
 ![LCOE Probability Distribution](LCOE_prob_distr.png)
-*Figure: Simulated LCOE probability distribution for a 1.5 MW off-grid solar microgrid in Botswana.*[^fig3]
+*Simulated LCOE probability distribution for solar generation.*  
+Source: [ourworldindata](https://ourworldindata.org/grapher/solar-pv-prices), [seef.co.bw](https://www.seeff.co.bw/results/vacant-land/?advanced_search=a0660ee01fe52a19f5723763268231c6&main_type=commercial), [sinovoltaics.com](https://sinovoltaics.com/learning-center/consumers/labor-costs-installing-solar-panels/), [fnbbotswana.co.bw](https://www.fnbbotswana.co.bw/for-my-business/value-adds/index.html#:~:text=Comprehensive%20cover%20for%20the%20unexpected&text=The%20cover%20ranges%20from%20P120,policy%20documents%20are%20issued%20immediately.), [taxsummaries.pwc.com](https://taxsummaries.pwc.com/botswana/corporate/taxes-on-corporate-income). *Author calculations & vizualization*
 
 __The model assumes a flexible mining load that dynamically scales with solar generation, minimizing the need for costly battery storage. This design prioritizes capital efficiency over continuous uptime and is appropriate for pilot-scale deployments.__
 
 ![kWh Differences](kWh_cost.png)
+*$/kWh cost differences.*  
+Source: [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/), [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/) *Author calculations and visualization*
 
 ### Noteable benchmarks 
 It is also worth mentioning, benchmarkable case studies of African countries where renewable energy  pilots have been constructed to power bitcoin miners. These include:
@@ -272,7 +288,7 @@ We estimated that profitability of mining bitcoin is sensitive to price swings o
 ## Sources Cited
 
 ## Contact Rehoboth Research
-Rehoboth Research LLC is a specialized research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region.
+Rehoboth Research LLC is a Pennsylvani- basedspecialized research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region.
 
 Get in Touch
 For inquiries regarding our Solar Feasibility MVP, research & consulting services, or to discuss the data models used in this paper, please reach out via the following channels:
