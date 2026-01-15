@@ -22,16 +22,16 @@
 
 ## Executive Summary
 
-Seventeen years after Satoshi Nakamoto published the Bitcoin whitepaper, Bitcoin has evolved from a peer-to-peer electronic cash system into a globally distributed settlement network secured by proof-of-work computation. Public discourse around Bitcoin focuses on price volatility, speculation and often comparisons to gold and the S&P500, which have market caps of: **$1.8T**, **$31T** and **$58T** respectively (as of 2025). #Add market cap numbers of all 3. However, there is a more pertinent factor that needs addressing, and that is energy. 
+Seventeen years after Satoshi Nakamoto published the Bitcoin whitepaper, Bitcoin has evolved from a peer-to-peer electronic cash system into a globally distributed settlement network secured by proof-of-work computation. Public discourse around Bitcoin focuses on price volatility, speculation and often comparisons to gold and the S&P500, which have market caps of: **$1.8T**, **$31T** and **$58T** respectively (as of 2025). However, there is a more pertinent factor that needs addressing, and that is energy. 
 
-Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh** of electricity annually-more than nordic countries like Norway(**124 tWh**) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
+Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh**(Cambridge Bitcoin Electricity Consumption Index) of electricity annually-more than nordic countries like Norway(**124 tWh**)(World Population Review, 2026) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
 
 ![Electricity Consumption per country 2023](electricity_consumed_per_country_2023.png)
 *Electricity Consumption per Country, 2023.*
 Source: [World Population Review (2023)](https://worldpopulationreview.com/country-rankings/electricity-consumption-by-country). *Vizualization modified by author*
 
 
-The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tones(conservative estimates) -98M metric tones(fossil fuel-intensive estimates) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses. 
+The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tones(Cambridge Digital Mining Industry Report, 2025) -98M metric tones(Swissinfo, 2025) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses(Solartechonline, 2025). 
 
 This whitepaper argues that the future competitiveness of Bitcoin mining depends on a structural shift toward low-cost, off-grid renewable energy sources in high-irradiance regions. Specifically, it evaluates solar energy deployment in Botswana as a strategic opportunity for Bitcoin miners seeking to reduce operating costs, mitigate regulatory risk, and improve long-term economic resilience.
 
@@ -51,7 +51,7 @@ $$
 Reward_t = \frac{50}{2^{\left\lfloor \frac{\text{Current Block}}{210000} \right\rfloor}}
 $$
 
-Bitcoin’s issuance follows a fixed, anti-inflationary tokenomics model with a maximum supply of **21M bitcoins**. Approximately **19M bitcoins** are in circulating supply and it is estimated that bitcoin mining will cease by the year 2140 with rewards for miners decreasing over time.
+Bitcoin’s issuance follows a fixed, anti-inflationary tokenomics model with a maximum supply of **21M bitcoins**. Approximately **19.8M bitcoins** (Blockchain.com)are in circulating supply and it is estimated that bitcoin mining will cease by the year 2140 with rewards for miners decreasing over time.
 
 ![$BTC supply curve since inception](btc_supply_circulation.png)
 *All-time total $BTC circulating supply.*
@@ -81,15 +81,15 @@ Mining bitcoin carries a range of operational expenses. These include:
 - Housing and land costs
 - Electricity costs which make up **60-80%** of OPEX depending on the miner.
 
-Electricity costs measured in $/kWh, range significantly by geo-location.Before 2022, most bitcoin mining operations were carried out in China(60% of the hash rate) due to cheap coal-based electricity backed by high government subsidies as well as a Hydro-electric power mix. However, following regulatory crackdowns on energy-intensive activities and concerns over grid stability and emissions, bitcoin mining was outlawed. Today, miners operate in different countries like: Iran, Kazakhstan, some parts of China and Russia, some U.S.A states, parts of Africa and Latin America.
+Electricity costs measured in $/kWh, range significantly by geo-location.Before 2022, most bitcoin mining operations were carried out in China(60% of the hash rate) (Bitbo.io)due to cheap coal-based electricity backed by high government subsidies as well as a Hydro-electric power mix. However, following regulatory crackdowns on energy-intensive activities and concerns over grid stability and emissions, bitcoin mining was outlawed. Today, miners operate in different countries like: Iran, Kazakhstan, some parts of China and Russia, some U.S.A states, parts of Africa and Latin America(hashrateindex.com, 2025).
 
 ![Global Hashrate Distribution](btc_hashrate_2025_country.jpg)
 *Global Hashrate Distribution(2025).*
 Source: [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-countries-of-2025/). 
 
-Energy is cheapest in regions like Iran and Kazakhstan which are coal-based and in some states like Texas and Kansas which offer incentives to bitcoin miners who relocate to them. Western countries like Ireland offer higher tariffs(electricity costs) for miners due to a higher residential usage/ demand for electricity. 
+Energy is cheapest in regions like Iran and Kazakhstan which are coal-based and in some states like Texas and Kansas which offer incentives to bitcoin miners who relocate to them. Western countries like Ireland offer higher tariffs(electricity costs) for miners due to a higher residential usage/ demand for electricity(solartechonline, 2025) (Bashari et al., 2025). 
 
-A Cambridge Digital mining report also stated that miners’ electricity mix is predominantly sustainable **(52.4%)**, with renewables accounting for **42.6%**. Hydropower constitutes the largest sustainable source **(23.4%)**, followed by wind **(15.4%)**, nuclear **(9.8%)**, solar **(3.2%)**, and other renewables **(0.5%)**. Fossil fuels make up **47.6%**, primarily natural gas **(38.2%)**, which is also the single largest energy source, followed by coal **(8.9%)** and oil **(0.5%)**. 
+A Cambridge Digital mining report also stated that miners’ electricity mix is predominantly sustainable **(52.4%)**, with renewables accounting for **42.6%**. Hydropower constitutes the largest sustainable source **(23.4%)**, followed by wind **(15.4%)**, nuclear **(9.8%)**, solar **(3.2%)**, and other renewables **(0.5%)**. Fossil fuels make up **47.6%**, primarily natural gas **(38.2%)**, which is also the single largest energy source, followed by coal **(8.9%)** and oil **(0.5%)**(Cambridge Digital Mining Industry Report, 2025). 
 
 ![Renewable vs Non-Renewable Energy Share](renew_nonrenew_share.png)
 *Renewable vs Non-Renewable Energy Share(April 2025).*
@@ -104,9 +104,9 @@ Source: [Cambridge Digital Mining Industry Report](https://www.jbs.cam.ac.uk/wp-
 Source: [Cambridge Digital Mining Industry Report](https://www.jbs.cam.ac.uk/wp-content/uploads/2025/04/2025-04-cambridge-digital-mining-industry-report.pdf). *Vizualization modified by author*
 
 Grid-connected mining operations face several structural risks:
-- Public and Environmental Scrutiny: High energy use often leads to media attention and negative public perception, which can influence regulatory action and hinder business expansion plans. This can be seen with President Trump's recent announcement on Truth Social to ensure data centers ‘pay their fair share’ of electricity costs due to grid-connected participation.
-- Regulatory exposure: In the US, the U.S Energy Information Administration recently moved to initiate a provisional survey of electricity consumption for U.S cryptocurrency mining companies, which was paused after a series of those companies sued it. 
-- Forced shutoffs during high-demand periods: Grid-connected operations often have to shut down operations during high demand periods, to allow for energy use by more critical infrastructure and stabilize prices which has an effect on expected profitability. 
+- Public and Environmental Scrutiny: High energy use often leads to media attention and negative public perception, which can influence regulatory action and hinder business expansion plans. This can be seen with President Trump's recent announcement on Truth Social to ensure data centers ‘pay their fair share’ of electricity costs due to grid-connected participation(X.com, 2025).
+- Regulatory exposure: In the US, the U.S Energy Information Administration recently moved to initiate a provisional survey of electricity consumption for U.S cryptocurrency mining companies, which was paused after a series of those companies sued it (earthjustice.org, 2024). 
+- Forced shutoffs during high-demand periods: Grid-connected operations often have to shut down operations during high demand periods, to allow for energy use by more critical infrastructure and stabilize prices which has an effect on expected profitability(finance.yahoo.com, 2026). 
 
 *Off-grid mining, by contrast, offers energy sovereignty. Miners that generate their own electricity avoid grid congestion, price spikes, and curtailment mandates, while gaining greater control over operating costs and regulatory exposure.*
 
@@ -120,7 +120,7 @@ Solar energy, particularly in regions with exceptional irradiance such as Botswa
 *Botswana Photovoltaic potential.*
 Source: [Solar resource map © 2021 Solargis](https://solargis.com/resources/free-maps-and-gis-data?locality=botswana). 
 
-Botswana is a landlocked, Southern African country with approximately 2.5M people, lying on **581,730 $km^2$** of land. It boasts about **3200 hours** of annual sunlight and a direct normal irradiance(**DNI**) of about **1900+kWh/$m^2$/year**. DNI measures the amount of solar radiation hitting a surface per area, that is perpendicular to the sun’s rays. An alternative measure is **GHI**, which measures the total solar radiation hitting a horizontal surface- Botswana’s is around **21MJ/$m^2$** with peaks of up to **45MJ/$m^2$** annually. 
+Botswana is a landlocked, Southern African country with approximately 2.5M people, lying on **581,730 $km^2$** of land. It boasts about **3200 hours** of annual sunlight and a direct normal irradiance(**DNI**) of about **1900+kWh/$m^2$/year**. DNI measures the amount of solar radiation hitting a surface per area, that is perpendicular to the sun’s rays. An alternative measure is **GHI**, which measures the total solar radiation hitting a horizontal surface- Botswana’s is around **21MJ/$m^2$** with peaks of up to **45MJ/$m^2$** annually. (gov.bw) (Tlhalerwa & Mulalu, 2019)
 
 This environment, combined with the country’s government’s **Vision 2036** to ensure 50% of energy generated is renewable, creates an optimal environment for miners seeking to pivot to a geo-location with cleaner and cheaper energy-given that the cost of solar energy has declined by over 80% this past decade.
 
@@ -138,7 +138,7 @@ $$
 There are three well known types of photovoltaic systems: 
 - Monocrystalline: Silicone solar cells manufactured using the Czochralski method from single silicone crystals.
 - Polycrystalline: Silicone solar cells manufactured using multiple silicone crystals.
-- And Thin film: Made from photovoltaic material deposited onto a backing plate made of substrate like glass, aluminium etc.
+- And Thin film: Made from photovoltaic material deposited onto a backing plate made of substrate like glass, aluminium etc.(solarreviews.com, 2025)
 
 |Type| Efficiency| Cost in **$/Watt**|
 |----|-----------|-------------------|
@@ -172,14 +172,14 @@ __The model assumes a flexible mining load that dynamically scales with solar ge
 
 ![kWh Differences](kWh_cost.png)
 *$/kWh cost differences.*  
-Source: [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/), [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/) *Author calculations and visualization*
+Source: [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/), [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/) *Author calculations and visualization* *Note: Note: Global Bitcoin mining electricity costs vary widely by region and energy source, typically ranging from approximately $0.05–$0.08/kWh. The value shown represents an indicative midpoint used for comparative purposes.*
 
 ### Noteable benchmarks 
 It is also worth mentioning, benchmarkable case studies of African countries where renewable energy  pilots have been constructed to power bitcoin miners. These include:
-- Kenya: In March 2024, Marathon Digital announced a signed deal with Kenya, wherein MARA will be capitalizing on Kenya’s underutilized Geothermal energy resources to power their operations. 
-- Ethiopia: UAE-based Phoenix Group, signed a 80MW power purchase agreement with EEP(Ethiopian Electric Power) leveraging primarily hydropower energy, announced January 2025. Though in Q3 2025, EEP announced plans to phase out $BTC miners due to the strain on the electric grid that they pose. 
+- Kenya: In March 2024, Marathon Digital announced a signed deal with Kenya, wherein MARA will be capitalizing on Kenya’s underutilized Geothermal energy resources to power their operations. (nasdaq.con, 2024)
+- Ethiopia: UAE-based Phoenix Group, signed a 80MW power purchase agreement with EEP(Ethiopian Electric Power) leveraging primarily hydropower energy, announced January 2025(phoenixgroupuae.com, 2025). Though in Q3 2025, EEP announced plans to phase out $BTC miners due to the strain on the electric grid that they pose(coingeek.com, 2025). 
 
-Recent academic literature on cryptocurrency mining and carbon emissions argues that mining should be incentivized in regions ranked higher in the Environment Performance Index, which takes into account: energy price, energy generation, sources, temperature, legal constraints, human capital, R &D. However, the literature primarily focuses on markets with mature energy infrastructure, overlooking high-irradiance regions where renewable energy generation potential is substantial but underdeveloped due to limited capital or generation capacity.
+Recent academic literature on cryptocurrency mining and carbon emissions argues that mining should be incentivized in regions ranked higher in the Environment Performance Index, which takes into account: energy price, energy generation, sources, temperature, legal constraints, human capital, R &D (Bashari et al., 2025). However, the literature primarily focuses on markets with mature energy infrastructure, overlooking high-irradiance regions where renewable energy generation potential is substantial but underdeveloped due to limited capital or generation capacity.
 
 __Botswana offers high solar output, stable peace and economic conditions and an opening for (foreign direct investment) FDI, especially Bitcoin miners seeking ways to drive down OPEX due to electricity in order to remain profitable.__
 
@@ -190,7 +190,7 @@ In the last 2-3 years, large-scale Bitcoin mining operators have pivoted to maxi
 - Mutual need for efficient cooling systems/ hardware
 - Dependence on low-cost electricity 
 
-Leveraging their facilities for their already set: cooling systems, access to energy via independent production/ signed PPAs to serve both bitcoin mining and AI services has proven not only strategic but economically positive for bitcoin miners. An estimate shows converting existing sites for AI hosting can earn miners **$1-4M per MW annually**. 
+Leveraging their facilities for their already set: cooling systems, access to energy via independent production/ signed PPAs to serve both bitcoin mining and AI services has proven not only strategic but economically positive for bitcoin miners. An estimate shows converting existing sites for AI hosting can earn miners **$1-4M per MW annually**(aterio.io, 2025). 
 
 By colocating Bitcoin mining and AI workloads around a shared renewable energy source, operators can significantly improve asset utilization and revenue stability. This is a version of colocation that this paper presents- referring not just to shared cooling or physical infrastructure, but to the strategic co-siting of multiple compute workloads around a common renewable energy source.
 
