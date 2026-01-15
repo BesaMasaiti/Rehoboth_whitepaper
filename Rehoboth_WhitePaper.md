@@ -1,5 +1,7 @@
-# Rehoboth Research LLC
-## Bitcoin Mining & The Solar Opportunity
+# <img src="56870.jpg" width="70" style="vertical-align: middle; margin-right: 10px;"> Rehoboth Research LLC
+
+
+## Whitepaper: Bitcoin Mining & The Solar Opportunity
 **Authored by Besa Masaiti: besa@rehobothresearch.org**
 
 
@@ -12,6 +14,7 @@
 - Risks & Feasibility
 - Bitcoin Price Volatility and IRR Sensitivity  
 - Roadmap
+- Sources Cited
 - Contact
 
 
@@ -268,3 +271,19 @@ We estimated that profitability of mining bitcoin is sensitive to price swings o
 
 ## Sources Cited
 
+## Contact Rehoboth Research
+Rehoboth Research LLC is a specialized research firm focused on the convergence of renewable energy, high-performance compute, and decentralized finance. We provide data-driven feasibility studies and strategic roadmaps for infrastructure investors and technology operators in the SADC region.
+
+Get in Touch
+For inquiries regarding our Solar Feasibility MVP, research & consulting services, or to discuss the data models used in this paper, please reach out via the following channels:
+
+Founder & Financial Research Analyst: Besa Masaiti
+
+Email: **besa@rehobothresearch.org**
+
+X (Twitter): https://x.com/BesaMasaiti
+
+LinkedIn: https://www.linkedin.com/in/besa-masaiti/
+
+**Legal Disclaimer**:
+*This white paper is for informational and research purposes only and does not constitute financial, investment, or legal advice. The calculations, including Levelized Cost of Energy (LCOE) and Internal Rate of Return (IRR) estimates, are based on current market data and stochastic modeling which are subject to change. Cryptocurrency mining involves significant risks, including asset volatility and regulatory shifts. Rehoboth Research LLC shall not be held liable for any financial losses or decisions made based on the contents of this document.*
