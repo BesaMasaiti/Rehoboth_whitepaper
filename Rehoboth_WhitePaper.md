@@ -9,7 +9,7 @@
 - Executive summary
 - Introduction: The Bitcoin Mining Landscape
 - The Energy Challenge in Bitcoin Mining
-- Solar as a Strategic Solution
+- Botswana's Solar as a Strategic Solution
 - Integration: Solar-powered mining and AI Data Centers
 - Risks
 - Roadmap
