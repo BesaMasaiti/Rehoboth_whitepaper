@@ -123,7 +123,7 @@ Botswana is a landlocked, Southern African country with approximately 2.5M peopl
 ## Botswana Energy landscape
 As of 2025, Botswana’s energy system remains overwhelmingly fossil-fuel dependent. Approximately **98.8% of electricity generation is non-renewable**, with coal accounting for nearly all domestic power production at an estimated **2.58 billion kWh per year**. Grid-scale renewable electricity contributes **less than 1% of total generation**, with solar representing approximately **3.2% of the renewable energy mix**, indicating substantial untapped potential rather than existing capacity (Our World in Data).
 
-Despite domestic coal production, Botswana remains partially energy import-dependent. Roughly **49% of primary energy supply is imported**, primarily in the form of oil products and supplemental coal, resulting in an estimated **61% energy self-sufficiency ratio**. This exposure to imports introduces price volatility and energy security risks.
+Despite domestic coal production, Botswana remains partially energy import-dependent. Roughly **49% of primary energy supply is imported**, primarily in the form of oil products and supplemental coal. This exposure to imports introduces price volatility and energy security risks.
 
 Traditional biomass remains a significant component of total final energy consumption (TFEC), accounting for approximately **27%**, largely for residential cooking. Over **66% of households** rely on biomass fuels, underscoring both energy access challenges and the government’s stated intention to phase out traditional biomass use in favor of modern energy sources.
 
