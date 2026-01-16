@@ -11,8 +11,7 @@
 - The Energy Challenge in Bitcoin Mining
 - Solar as a Strategic Solution
 - Integration: Solar-powered mining and AI Data Centers
-- Risks & Feasibility
-- Bitcoin Price Volatility and IRR Sensitivity  
+- Risks
 - Roadmap
 - Contact Rehoboth Research
 - Sources Cited
@@ -121,10 +120,35 @@ Source: [Solar resource map © 2021 Solargis](https://solargis.com/resources/fre
 
 Botswana is a landlocked, Southern African country with approximately 2.5M people, lying on **581,730 $km^2$** of land. It boasts about **3200 hours** of annual sunlight and a direct normal irradiance(**DNI**) of about **1900+kWh/$m^2$/year**. DNI measures the amount of solar radiation hitting a surface per area, that is perpendicular to the sun’s rays. An alternative measure is **GHI**, which measures the total solar radiation hitting a horizontal surface- Botswana’s is around **21MJ/$m^2$** with peaks of up to **45MJ/$m^2$** annually. (gov.bw) (Tlhalerwa & Mulalu, 2019)
 
-This environment, combined with the country’s government’s **Vision 2036** to ensure 50% of energy generated is renewable, creates an optimal environment for miners seeking to pivot to a geo-location with cleaner and cheaper energy-given that the cost of solar energy has declined by over 80% this past decade.
+## Botswana Energy landscape
+As of 2025, Botswana’s energy system remains overwhelmingly fossil-fuel dependent. Approximately **98.8% of electricity generation is non-renewable**, with coal accounting for nearly all domestic power production at an estimated **2.58 billion kWh per year**. Grid-scale renewable electricity contributes **less than 1% of total generation**, with solar representing approximately **3.2% of the renewable energy mix**, indicating substantial untapped potential rather than existing capacity (Our World in Data).
+
+Despite domestic coal production, Botswana remains partially energy import-dependent. Roughly **49% of primary energy supply is imported**, primarily in the form of oil products and supplemental coal, resulting in an estimated **61% energy self-sufficiency ratio**. This exposure to imports introduces price volatility and energy security risks.
+
+Traditional biomass remains a significant component of total final energy consumption (TFEC), accounting for approximately **27%**, largely for residential cooking. Over **66% of households** rely on biomass fuels, underscoring both energy access challenges and the government’s stated intention to phase out traditional biomass use in favor of modern energy sources.
+
+Under **Vision 2036**, Botswana has committed to increasing renewable energy’s share of electricity generation to **50% by 2036**, up from an estimated **~7% policy target baseline in 2025**. Achieving this transition will require rapid deployment of utility-scale solar infrastructure, independent power producers (IPPs), and off-grid solutions.
+ 
+|Source|Share (%)|Production (bn kWh/year)|Notes|
+|------|---------|------------------------|-----|
+|Fossil Fuels (Coal)|98.8|2.58|Domestic dominant; 59% self-sufficiency|
+|Renewables (Solar/Wind/Hydro)|<1|~0.005|Solar 3.2% of RE; potential untapped|
+|Biomass (Traditional)|27(TFEC)|---|Cooking 66.6% households; phase-out target|
+
+### Existing and Planned Solar Sites: 
+**Operational / Under Construction**
+- **Mmadinare Solar Complex (120 MW)** – Scatec; Phase 1 operational 2025 with 60 MW Phase 2 expansion underway.
+- **Shumba Tati Solar (100 MW)** – Under construction; expected operational in 2026.
+
+**Planned / Announced Projects**
+- **Jwaneng Solar Project (100 MW)** – Planned deployment in 2025.
+- **IPP Pipeline (335 MW)** – Multiple independent power producer projects scheduled between 2025–2027.
+
+**MoUs and Large-Scale Announcements**
+- **Oman-led Renewable Project (3 GW)** – Solar, wind, and battery energy storage system (BESS) agreement announced in 2025.
+- **KP Group Investment MoU ($4B, 5 GW)** – Utility-scale solar capacity under memorandum of understanding, subject to execution and financing.
 
 __Solar energy generation consists of two main approaches: Concentrated solar power(CSP) and photovoltaic systems. Our focus will be on the latter, due to its wide usage in utility scale solar projects- most relevant for bitcoin miners.__
-
 
 ## Photovoltaic Systems in Solar Energy
 
@@ -256,19 +280,8 @@ Risks|Mitigation|
 |Skilled labor shortages|Phased deployment|
 |Project overruns|Conservative timelines|
 
-## Bitcoin Price Volatility and IRR Sensitivity
-
-$BTC being a speculative asset means profitability for miners also depends on the volatility of the asset’s price. 
-### Formula
-$$
-Profit_t = (BTCreward_t × BTCprice_t) − (Energycost_t + OPEX_t)
-$$
-
-We estimated that profitability of mining bitcoin is sensitive to price swings of the cryptocurrency by XX- a key metric that must be taken into account when modelling profitability margins for miners.
-
 ## Roadmap & Timelines
 The following roadmap outlines **Rehoboth Research's** phased approach to developing and scaling solar-powered compute infrastructure in Botswana. Progression between phases is conditional on achieving predefined technical, economic, and operational benchmarks.
-
 
 **Phase 0 Pre-pilot (3–6m)**  
 `[■■■■■■]` Launch Solar feasibility MVP
@@ -396,6 +409,24 @@ https://www.fnbbotswana.co.bw/for-my-business/value-adds/
 
 PwC. Botswana Corporate Tax Summary.
 https://taxsummaries.pwc.com/botswana/corporate/taxes-on-corporate-income
+
+
+### Botswana Energy Landscape 
+Climate Analytics. *Power Sector and Renewable Energy in Botswana* (2025). Current reliance on fossil fuels and projected renewable share. https://1p5ndc-pathways.climateanalytics.org/countries/botswana/sectors/power :contentReference[oaicite:5]{index=5}
+
+Trade.gov. *Botswana Energy Sector Overview* (2025). Structural coal dependence and solar potential. https://www.trade.gov/country-commercial-guides/botswana-energy :contentReference[oaicite:6]{index=6}
+
+World Bank. *World Bank Supports Botswana to Enhance Renewable Energy and Improve Electricity Services*. Press release, July 12, 2024. Target renewables share and early project pipelines. https://www.worldbank.org/en/news/press-release/2024/07/12/world-bank-supports-botswana-to-enhance-renewable-energy-and-afe-electricity :contentReference[oaicite:7]{index=7}
+
+Powers of Africa. *Botswana: 50% Renewable Energy by 2036* (2024). Renewable energy targets and planned capacity. https://powersofafrica.com/article/740/botswana-50-renewable-energy-by-2036 :contentReference[oaicite:8]{index=8}
+
+Scotts International. *Botswana Renewable Energy Market Share Analysis* (2025). Installed and forecast renewables capacity. https://www.scotts-international.com/botswana-renewable-energy-market-share-analysis-industry-trends-statistics-growth-forecasts-2025-2030%2Ct2096304/4/2/22/207/2131/ :contentReference[oaicite:9]{index=9}
+
+Scatec ASA. *Mmadinare Solar Power Complex – Commercial Operation* (March 12, 2025). Phase I and II information on 120 MW facility. https://www.globenewswire.com/news-release/2025/03/12/3041534/0/en/Scatec-starts-commercial-operation-of-solar-power-plant-in-Botswana.html :contentReference[oaicite:10]{index=10}
+
+Wikipedia. *Palapye Solar Power Station*. Installed/planned PV capacity and development status. https://en.wikipedia.org/wiki/Palapye_Solar_Power_Station :contentReference[oaicite:11]{index=11}
+
+Wikipedia. *Jwaneng Solar Power Station*. Planned PV station details. https://en.wikipedia.org/wiki/Jwaneng_Solar_Power_Station :contentReference[oaicite:12]{index=12}
 
 ### Commentary & Public Discourse
 
