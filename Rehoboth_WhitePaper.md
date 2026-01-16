@@ -22,14 +22,14 @@
 
 Seventeen years after Satoshi Nakamoto published the Bitcoin whitepaper, Bitcoin has evolved from a peer-to-peer electronic cash system into a globally distributed settlement network secured by proof-of-work computation. Public discourse around Bitcoin focuses on price volatility, speculation and often comparisons to gold and the S&P500, which have market caps of: **$1.8T**, **$31T** and **$58T** respectively (as of 2025). However, there is a more pertinent factor that needs addressing, and that is energy. 
 
-Bitcoin is valuable not because of speculation but because it is backed by a real-world annual **630 billion MJ of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh**(Cambridge Bitcoin Electricity Consumption Index) of electricity annually(2025 range was 120-200 tWh)-more than nordic countries like Norway(**124 tWh**)(World Population Review, 2026) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
+Bitcoin is valuable not because of speculation but because it is backed by a real-world annual estimates **120-200 terrawatt hours of high energy demand** required to secure the Bitcoin network. However, the same energy intensity that secures the network has become the primary constraint on mining profitability, regulatory acceptance, and long-term sustainability. Per the Cambridge Bitcoin Electricity Consumption Index, Bitcoin mining currently consumes an estimated **195.9 tWh**(Cambridge Bitcoin Electricity Consumption Index) of electricity annually(2025 range was 120-200 tWh)-more than Nordic countries like Norway(**124 tWh**)(World Population Review, 2026) as measured by the World Population Review’s Electricity Consumption per country's 2023 data set. 
 
 ![Electricity Consumption per country 2023](electricity_consumed_per_country_2023.png)
 *Electricity Consumption per Country, 2023.*
 Source: [World Population Review (2023)](https://worldpopulationreview.com/country-rankings/electricity-consumption-by-country). *Vizualization modified by author*
 
 
-The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tones(Cambridge Digital Mining Industry Report, 2025) -98M metric tones(Swissinfo, 2025) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses(Solartechonline, 2025). 
+The process, which relies on fossil fuels like coal for ~48% of global activity- emits an approximate 39M metric tonnes(Cambridge Digital Mining Industry Report, 2025) -98M metric tonnes(Swissinfo, 2025) of carbon dioxide annually, a greenhouse gas attributed to global warming. Furthermore, electricity-backed by energy, as an operational expense for bitcoin miners accounts for 60-80% of operational expenses(Solartechonline, 2025). 
 
 This whitepaper argues that the future competitiveness of Bitcoin mining depends on a structural shift toward low-cost, off-grid renewable energy sources in high-irradiance regions. Specifically, it evaluates solar energy deployment in Botswana as a strategic opportunity for Bitcoin miners seeking to reduce operating costs, mitigate regulatory risk, and improve long-term economic resilience.
 
@@ -199,7 +199,7 @@ Source: [pvknowhow.com](https://www.pvknowhow.com/solar-report/botswana/), [pvkn
 
 ### Noteable benchmarks 
 It is also worth mentioning, benchmarkable case studies of African countries where renewable energy  pilots have been constructed to power bitcoin miners. These include:
-- Kenya: In March 2024, Marathon Digital announced a signed deal with Kenya, wherein MARA will be capitalizing on Kenya’s underutilized Geothermal energy resources to power their operations. (nasdaq.con, 2024)
+- Kenya: In March 2024, Marathon Digital announced a signed deal with Kenya, wherein MARA will be capitalizing on Kenya’s underutilized Geothermal energy resources to power their operations. (nasdaq.com, 2024)
 - Ethiopia: UAE-based Phoenix Group, signed a 80MW power purchase agreement with EEP(Ethiopian Electric Power) leveraging primarily hydropower energy, announced January 2025(phoenixgroupuae.com, 2025). Though in Q3 2025, EEP announced plans to phase out $BTC miners due to the strain on the electric grid that they pose(coingeek.com, 2025). 
 
 Recent academic literature on cryptocurrency mining and carbon emissions argues that mining should be incentivized in regions ranked higher in the Environment Performance Index, which takes into account: energy price, energy generation, sources, temperature, legal constraints, human capital, R &D (Bashari et al., 2025). However, the literature primarily focuses on markets with mature energy infrastructure, overlooking high-irradiance regions where renewable energy generation potential is substantial but underdeveloped due to limited capital or generation capacity.
@@ -412,21 +412,21 @@ https://taxsummaries.pwc.com/botswana/corporate/taxes-on-corporate-income
 
 
 ### Botswana Energy Landscape 
-Climate Analytics. *Power Sector and Renewable Energy in Botswana* (2025). Current reliance on fossil fuels and projected renewable share. https://1p5ndc-pathways.climateanalytics.org/countries/botswana/sectors/power :contentReference[oaicite:5]{index=5}
+Climate Analytics. *Power Sector and Renewable Energy in Botswana* (2025). Current reliance on fossil fuels and projected renewable share. https://1p5ndc-pathways.climateanalytics.org/countries/botswana/sectors/power 
 
-Trade.gov. *Botswana Energy Sector Overview* (2025). Structural coal dependence and solar potential. https://www.trade.gov/country-commercial-guides/botswana-energy :contentReference[oaicite:6]{index=6}
+Trade.gov. *Botswana Energy Sector Overview* (2025). Structural coal dependence and solar potential. https://www.trade.gov/country-commercial-guides/botswana-energy 
 
-World Bank. *World Bank Supports Botswana to Enhance Renewable Energy and Improve Electricity Services*. Press release, July 12, 2024. Target renewables share and early project pipelines. https://www.worldbank.org/en/news/press-release/2024/07/12/world-bank-supports-botswana-to-enhance-renewable-energy-and-afe-electricity :contentReference[oaicite:7]{index=7}
+World Bank. *World Bank Supports Botswana to Enhance Renewable Energy and Improve Electricity Services*. Press release, July 12, 2024. Target renewables share and early project pipelines. https://www.worldbank.org/en/news/press-release/2024/07/12/world-bank-supports-botswana-to-enhance-renewable-energy-and-afe-electricity 
 
-Powers of Africa. *Botswana: 50% Renewable Energy by 2036* (2024). Renewable energy targets and planned capacity. https://powersofafrica.com/article/740/botswana-50-renewable-energy-by-2036 :contentReference[oaicite:8]{index=8}
+Powers of Africa. *Botswana: 50% Renewable Energy by 2036* (2024). Renewable energy targets and planned capacity. https://powersofafrica.com/article/740/botswana-50-renewable-energy-by-2036 
 
-Scotts International. *Botswana Renewable Energy Market Share Analysis* (2025). Installed and forecast renewables capacity. https://www.scotts-international.com/botswana-renewable-energy-market-share-analysis-industry-trends-statistics-growth-forecasts-2025-2030%2Ct2096304/4/2/22/207/2131/ :contentReference[oaicite:9]{index=9}
+Scotts International. *Botswana Renewable Energy Market Share Analysis* (2025). Installed and forecast renewables capacity. https://www.scotts-international.com/botswana-renewable-energy-market-share-analysis-industry-trends-statistics-growth-forecasts-2025-2030%2Ct2096304/4/2/22/207/2131/ 
 
-Scatec ASA. *Mmadinare Solar Power Complex – Commercial Operation* (March 12, 2025). Phase I and II information on 120 MW facility. https://www.globenewswire.com/news-release/2025/03/12/3041534/0/en/Scatec-starts-commercial-operation-of-solar-power-plant-in-Botswana.html :contentReference[oaicite:10]{index=10}
+Scatec ASA. *Mmadinare Solar Power Complex – Commercial Operation* (March 12, 2025). Phase I and II information on 120 MW facility. https://www.globenewswire.com/news-release/2025/03/12/3041534/0/en/Scatec-starts-commercial-operation-of-solar-power-plant-in-Botswana.html 
 
-Wikipedia. *Palapye Solar Power Station*. Installed/planned PV capacity and development status. https://en.wikipedia.org/wiki/Palapye_Solar_Power_Station :contentReference[oaicite:11]{index=11}
+Wikipedia. *Palapye Solar Power Station*. Installed/planned PV capacity and development status. https://en.wikipedia.org/wiki/Palapye_Solar_Power_Station 
 
-Wikipedia. *Jwaneng Solar Power Station*. Planned PV station details. https://en.wikipedia.org/wiki/Jwaneng_Solar_Power_Station :contentReference[oaicite:12]{index=12}
+Wikipedia. *Jwaneng Solar Power Station*. Planned PV station details. https://en.wikipedia.org/wiki/Jwaneng_Solar_Power_Station 
 
 ### Commentary & Public Discourse
 
