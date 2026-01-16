@@ -1,4 +1,5 @@
 # <img src="56870.jpg" width="70" style="vertical-align: middle; margin-right: 10px;"> Rehoboth Research LLC
+© 2026 Rehoboth Research LLC. All rights reserved.
 
 
 ## Whitepaper: Bitcoin Mining & The Solar Opportunity
@@ -319,6 +320,10 @@ For research collaboration, infrastructure partnerships, or investment-related i
 
 **Legal Disclaimer**:
 *This white paper is for informational and research purposes only and does not constitute financial, investment, or legal advice. The calculations, including Levelized Cost of Energy (LCOE) and Internal Rate of Return (IRR) estimates, are based on current market data and stochastic modeling which are subject to change. Cryptocurrency mining involves significant risks, including asset volatility and regulatory shifts. Rehoboth Research LLC shall not be held liable for any financial losses or decisions made based on the contents of this document.*
+
+**Copyright & Intellectual Property Notice**:
+
+*© 2026 Rehoboth Research LLC. All rights reserved. This white paper, including its models, analysis, figures, simulations, and original frameworks, constitutes the intellectual property of Rehoboth Research LLC. Unauthorized reproduction, redistribution, or use without explicit attribution or written permission is prohibited.*
 
 ## Sources Cited
 ### Bitcoin Network, Mining & Energy Consumption 
